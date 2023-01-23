@@ -6,7 +6,7 @@ using System.Text;
 
 namespace ExpenseApplication.Models
 {
-    class Expense
+    public class Expense
     {
         [PrimaryKey,AutoIncrement]
         public int Id { get; set; }
