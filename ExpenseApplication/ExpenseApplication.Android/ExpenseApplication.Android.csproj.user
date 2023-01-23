@@ -3,5 +3,6 @@
   <PropertyGroup>
     <SelectedDevice>OPPO CPH1933</SelectedDevice>
     <ActiveDebugProfile>OPPO CPH1933</ActiveDebugProfile>
+    <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>
