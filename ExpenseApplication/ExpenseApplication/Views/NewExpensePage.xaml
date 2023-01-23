@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:vm="clr-namespace:ExpenseApplication.ViewModels"
+             xmlns:effects="clr-namespace:ExpenseApplication.Effects"
              x:Class="ExpenseApplication.Views.NewExpensePage">
 
     <ContentPage.Resources>
@@ -35,10 +36,14 @@
                             <StackLayout Orientation="Horizontal"
                                          Margin="16,0">
                                 <Label Text="Date:"
-                                       VerticalOptions="Center"/>   
+                                       VerticalOptions="Center"/>
                                 <DatePicker Date="{Binding ExpenseDate,Mode=TwoWay}"
                                             VerticalOptions="Center"
-                                            HorizontalOptions="FillAndExpand"/>
+                                            HorizontalOptions="FillAndExpand">
+                                    <DatePicker.Effects>
+                                        <effects:SelectedEffect/>
+                                    </DatePicker.Effects>
+                                </DatePicker>
                             </StackLayout>
                         </ViewCell>
 
@@ -50,7 +55,11 @@
                                 <Picker  SelectedItem="{Binding ExpenseCategory, Mode=TwoWay}" 
                                          ItemsSource="{Binding Categories}"
                                          VerticalOptions="Center"
-                                         HorizontalOptions="FillAndExpand"/>
+                                         HorizontalOptions="FillAndExpand">
+                                    <Picker.Effects>
+                                        <effects:SelectedEffect/>
+                                    </Picker.Effects>
+                                </Picker>
                             </StackLayout>
                         </ViewCell>
                     </TableSection>
