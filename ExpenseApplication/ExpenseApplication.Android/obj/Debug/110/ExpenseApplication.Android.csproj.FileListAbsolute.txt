@@ -597,3 +597,4 @@ D:\Documents\Practice\Xamarin\ExpenseApplication\ExpenseApplication\ExpenseAppli
 D:\Documents\Practice\Xamarin\ExpenseApplication\ExpenseApplication\ExpenseApplication.Android\obj\Debug\110\android\assets\System.Buffers.dll
 D:\Documents\Practice\Xamarin\ExpenseApplication\ExpenseApplication\ExpenseApplication.Android\obj\Debug\110\android\assets\System.Memory.dll
 D:\Documents\Practice\Xamarin\ExpenseApplication\ExpenseApplication\ExpenseApplication.Android\obj\Debug\110\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+D:\Documents\Practice\Xamarin\ExpenseApplication\ExpenseApplication\ExpenseApplication.Android\obj\Debug\110\android\src\crc64fdea307dfe089eaf\CustomProgressBarRenderer.java
