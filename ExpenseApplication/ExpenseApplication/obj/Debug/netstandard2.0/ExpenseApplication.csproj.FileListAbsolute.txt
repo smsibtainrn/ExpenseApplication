@@ -17,3 +17,4 @@ D:\Documents\Practice\Xamarin\ExpenseApplication\ExpenseApplication\ExpenseAppli
 D:\Documents\Practice\Xamarin\ExpenseApplication\ExpenseApplication\ExpenseApplication\obj\Debug\netstandard2.0\ExpenseApplication.pdb
 D:\Documents\Practice\Xamarin\ExpenseApplication\ExpenseApplication\ExpenseApplication\obj\Debug\netstandard2.0\ExpenseApplication.csproj.AssemblyReference.cache
 D:\Documents\Practice\Xamarin\ExpenseApplication\ExpenseApplication\ExpenseApplication\obj\Debug\netstandard2.0\Views\ExpenseDetailsPage.xaml.g.cs
+D:\Documents\Practice\Xamarin\ExpenseApplication\ExpenseApplication\ExpenseApplication\obj\Debug\netstandard2.0\StyleSheets\styles.css.g.cs

@@ -1,10 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:view="clr-namespace:ExpenseApplication.Views"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+            ios:Page.UseSafeArea="true"
             x:Class="ExpenseApplication.Views.MainPage">
+
+    <!--<NavigationPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="androidAccent">#FFFFFF</Color>
+            <Color x:Key="iOSAccent">#0088CC</Color>
+        </ResourceDictionary>
+    </NavigationPage.Resources>-->
+    <!--Using from App.xaml - Application Resources-->
     
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal"
+                     VerticalOptions="Center"
+                     HorizontalOptions="Center"
+                     Spacing="10">
+            <Image Source="expenses.png" />
+            <Label VerticalOptions="Center"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   TextColor="{OnPlatform Android={StaticResource androidAccent}, iOS={StaticResource iOSAccent}, Default=Black}"
+                   Text="Finance"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+
     <view:CategoriesPage Title="Categories" IconImageSource="category.png"/>
     <view:ExpensesPage Title="Expenses" IconImageSource="expenses.png"/>
-    
+
 </TabbedPage>

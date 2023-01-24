@@ -1,0 +1,22 @@
+﻿listview {
+    margin-top:20;
+    margin-left: 10;
+    margin-right: 10;
+}
+
+^label {
+    color: blueviolet
+}
+
+.titleLabel {
+    font-size: 20;
+    font-style: bold;
+    margin-top: 20;
+    margin-left:20;
+}
+
+.normalLabel {
+    font-size: 16;
+    color: black;
+}
+

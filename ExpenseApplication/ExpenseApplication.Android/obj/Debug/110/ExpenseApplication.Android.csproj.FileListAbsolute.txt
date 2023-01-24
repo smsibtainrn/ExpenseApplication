@@ -606,3 +606,4 @@ D:\Documents\Practice\Xamarin\ExpenseApplication\ExpenseApplication\ExpenseAppli
 D:\Documents\Practice\Xamarin\ExpenseApplication\ExpenseApplication\ExpenseApplication.Android\obj\Debug\110\android\assets\System.IO.dll
 D:\Documents\Practice\Xamarin\ExpenseApplication\ExpenseApplication\ExpenseApplication.Android\obj\Debug\110\android\assets\System.Resources.ResourceManager.dll
 D:\Documents\Practice\Xamarin\ExpenseApplication\ExpenseApplication\ExpenseApplication.Android\obj\Debug\110\android\assets\System.Threading.Tasks.dll
+D:\Documents\Practice\Xamarin\ExpenseApplication\ExpenseApplication\ExpenseApplication.Android\obj\Debug\110\res\drawable\profits.png
