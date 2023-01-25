@@ -1,4 +1,5 @@
-﻿using ExpenseApplication.Views;
+﻿using ExpenseApplication.Resources;
+using ExpenseApplication.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -17,7 +18,10 @@ namespace ExpenseApplication
         public App(string databasePath)
         {
             InitializeComponent();
-            
+
+            //AppResources.Culture = new System.Globalization.CultureInfo("en-US);
+            //AppResources.Culture = new System.Globalization.CultureInfo("es-ES");
+
             DatabasePath = databasePath;
 
             MainPage = new NavigationPage(new MainPage());

@@ -18,6 +18,11 @@
         },
         "runtime": {
           "ExpenseApplication.dll": {}
+        },
+        "resources": {
+          "es/ExpenseApplication.resources.dll": {
+            "locale": "es"
+          }
         }
       },
       "Microsoft.Bcl/1.1.6": {

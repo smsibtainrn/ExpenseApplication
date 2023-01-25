@@ -1,4 +1,5 @@
 ﻿using ExpenseApplication.Models;
+using ExpenseApplication.Resources;
 using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -102,13 +103,13 @@ namespace ExpenseApplication.ViewModels
         private void GetCategories()
         {
             Categories.Clear();
-            Categories.Add("Housing");
-            Categories.Add("Debt");
-            Categories.Add("Health");
-            Categories.Add("Food");
-            Categories.Add("Personal");
-            Categories.Add("Travel");
-            Categories.Add("Other");
+            Categories.Add(AppResources.housingCategory);
+            Categories.Add(AppResources.debtCategory);
+            Categories.Add(AppResources.healthCategory);
+            Categories.Add(AppResources.foodCategory);
+            Categories.Add(AppResources.personalCategory);
+            Categories.Add(AppResources.travelCategory);
+            Categories.Add(AppResources.otherCategory);
         }
 
         public void GetExpenseStatus() {
